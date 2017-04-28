@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
     <meta name="MobileOptimized" content="240"/>
 	<title>最新新能源汽车市场报告</title>
+	<link rel="stylesheet" type="text/css" href="photoswipe/photoswipe.css">
+	<link rel="stylesheet" type="text/css" href="photoswipe/default-skin/default-skin.css">
+	<script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.js"></script>
+	<!--<script type="text/javascript" src="photoswipe/code-photoswipe-1.0.11.min.js"></script>-->
+	<script type="text/javascript" src="photoswipe/photoswipe.js"></script>
+	<script type="text/javascript" src="photoswipe/photoswipe-ui-default.js"></script>
 <style type="text/css">
 /*===reset-star===*/
 *{margin:0;padding:0;-webkit-box-sizing:border-box;box-sizing:border-box; }
@@ -23,7 +29,7 @@ body{
 }
 .wrap{
 	width: 100%;
-	padding:2.5rem 5rem;
+	padding:2.5rem 1rem;
 	border:1px solid #ccc;
 	background-color: #eee;
 	letter-spacing:1.2px;
@@ -39,6 +45,7 @@ body{
 	color: #666;
 	line-height: 2rem;
 	margin-bottom: 2rem;
+	margin-left: 1rem;
 	text-align: left;
 }
 .author::before{
@@ -71,7 +78,7 @@ body{
 	float:left;
 }
 .content p{
-	font-size: 1.6rem;
+	font-size: 14px;
 	line-height: 2.5rem;
 	text-indent: 2em;
 	margin-bottom: 1.5rem;
@@ -91,7 +98,7 @@ body{
 .content img{
 	display: block;
 	margin:2rem auto 1rem;
-	max-width: 75%;
+	max-width: 100%;
 }
 .content label{
 	display: block;
@@ -116,60 +123,60 @@ body{
 		<div class="head">最新新能源汽车市场报告</div>
 		<div class="author">作者：崔东树</div>
 	</div>
-	<div class="content">
+	<div class="content my-gallery" data-pswp-uid="1">
 		<div class="introduction">根据乘联会厂家数据，17年1月新能源乘用车销量达到0.54万，总体同比增速-61%，1月新能源乘用车呈现蓄势待发的低产销特征。1月的普通混动车型销量0.98万台，同比增长是新能源车的近两倍销量，纯电动乘用车同比增-55%，但插混同比增-67%，这也是新能源车的年初补贴退坡与公告重审过程中的暂时现象，随着第一批新能源推广目录的发布，2月新能源车将步入正轨。</div>
 
 		<div class="title">一、新能源乘用车销量暴增</div>
 		<div class="sub-title">1、12月新能源车销量增长较猛</div>
-		<img src="image/1.png" alt="12月新能源车销量增长较猛">
+		<a href="image/1.png" data-size="100*100"><img src="image/1.png" alt="12月新能源车销量增长较猛"></a>
 		<label>12月新能源车销量增长较猛</label>
 		<p>在15年新能源车高增长后，16年新能源乘用车市场呈现调整规范发展的特征。16年上半年的3-6月新能源车逐步实现恢复性增长，6月冲刺到3.5万台水平。下半年的7-10月新能源车处于3万台左右的位稳定状态调整整固。16年11-12月的新能源车达到4.2万台高位。17年1月0.54万台体现了市场对政策补贴的极度依赖，随着第一批目录的发布，2月新能源车市场产销将大幅高于1月。 </p>
 
 		<div class="sub-title">2、1月新能源车的销售偏低</div>
-		<img src="image/2.png" alt="1月新能源车的销售偏低">
+		<a href="image/2.png"><img src="image/2.png" alt="1月新能源车的销售偏低"></a>
 		<label>1月新能源车的销售偏低</label>
 		<p>1月新能源乘用车呈现全面低迷的走势特征。17年1月新能源乘用车车销量达到0.54万，总体同比增速-61%。1月的插电混动同比增速表现仍弱于纯电动轿车，纯电动乘用车同比降55%，但插混同比下降67%；</p>
 		<p>纯电动中的A00级电动车有0,2万台，仍是最大的市场，同比下降32%。A级电动车主要是北京市场的拉动，因此去年的年初销量仍较低，今年的1月的A级电动车同比持平，但环比12月也是下降了91%。插电混动的市场总体低迷，A级插混甚至低于15年1月的销量。但这也是正常的过渡期，不必过分解读销量下滑问题。</p>
 
 		<div class="sub-title">3、新能源车销售结构快速变化</div>
-		<img src="image/3.png" alt="新能源车销售结构快速变化">
+		<a href="image/3.png"><img src="image/3.png" alt="新能源车销售结构快速变化"></a>
 		<label>新能源车销售结构快速变化</label>
 		<p>17年的新能源乘用车中插电占比达到36%，相对16年度占比25%的比例稍高，但纯电动仍超强于插电的表现</p>
 		<p>17年1月纯电动乘用车中基本是轿车产品，前期的MPVSUV逐步萎缩，这也是电池影响的新能源车产品升级放缓</p>
 		<p>16年插电混动的车型组合多元化，SUV等表现较强，随着网约车的治理新政，16年4季度的插混总体低迷，17年初也是没有改善。</p>
 
 		<div class="sub-title">4、新能源车销售级别变化</div>
-		<img src="image/4.png" alt="新能源车销售级别变化">
+		<a href="image/4.png"><img src="image/4.png" alt="新能源车销售级别变化"></a>
 		<label>新能源车销售级别变化</label>
 		<p>15年的纯电动车中的A00级车占比达64%，且A0级成为纯电动乘用车的绝对主力，这两类组合的经济型电动车成为主力。但16年2季度以来的A级电动车爆发增长到纯电动份额的37%，17年的A级电动车在上半年仍有北京市场的巨大释放潜力。</p>
 
 		<div class="sub-title">5、新能源车细分市场变化</div>
-		<img src="image/5.png" alt="新能源车细分市场变化">
+		<a href="image/5.png"><img src="image/5.png" alt="新能源车细分市场变化"></a>
 		<label>新能源车细分市场变化</label>
 		<p>目前的纯电动A00级车成为车市的绝对主力车型，增长表现突出，而A级电动车表现也较强。A级电动车的政策保护较好，因此没有类似经济型电动车的政策影响波动的特征，但A00级的潜力是巨大的。</p>
 
 		<div class="sub-title">6、新能源车交强险上牌数据</div>
-		<img src="image/6.png" alt="新能源车交强险上牌数据">
+		<a href="image/6.png"><img src="image/6.png" alt="新能源车交强险上牌数据"></a>
 		<label>新能源车交强险上牌数据</label>
 		<p>16年的全年的交强险汽车销量数据体现北京的新能源车达到63415台，其中基本是纯电车型，插混占到1%，由此也决定了全国新能源车市场的发展模式是纯电为主的特征，地方特色决定市场模式。而上海的上牌是4.5万台，其中70%是插混，纯电动的需求较弱，形成上海模式。由于上海的新能源车数量低于北京，因此北京纯电模式成为全国的短期主导模式。</p>
 
 		<div class="title">二、 1月新能源车主力车型销量表现较强</div>
 
 		<div class="sub-title">1、1月新能源车主力厂家销量走势</div>
-		<img src="image/7.png" alt="1月新能源车主力厂家销量走势">
+		<a href="image/7.png"><img src="image/7.png" alt="1月新能源车主力厂家销量走势"></a>
 		<label>1月新能源车主力厂家销量走势</label>
 		<p>新能源车市场的走势较强，近期的节能与新能源车发展技术线路图强化了混动的发展思路，提出混动的销量要超越传统新能源车，这也是值得关注的政策变化。我们也是把混动厂家纳入考虑。16年的新能源车主要是民营企业的超强表现，众泰、吉利、比亚迪的表现超强。而北汽新能源和江淮的走势相对平稳。17年1月的新能源车厂家销量低，混动的稳定可持续增长也是值得关注的。</p>
 		<p>16年1月的比亚迪秦是517，唐是4012台，表现还是很好的。</p>
 
 		<div class="sub-title">2、1月新能源车主力车型销量增长较稳</div>
-		<img src="image/8.png" alt="1月新能源车主力车型销量增长较稳">
+		<a href="image/8.png"><img src="image/8.png" alt="1月新能源车主力车型销量增长较稳"></a>
 		<label>1月新能源车主力车型销量增长较稳</label>
 		<p>16年电动车销量较高的是绅宝D50电动、北汽E系电动、知豆D1、比亚迪e5、比亚迪秦EV、江淮IEV等。</p>
 		<p>17年1月环比12月走强的电动车主要是微型电动车，如长安的奔奔电动车等表现较强，而北京市场的需求车型走势放缓。比如北汽的绅宝D50、比亚迪e5、比亚迪的秦EV等A级电动车走势不强。</p>
 		<p>插电混动车型的1月环比下滑较大，表现较好的是荣威ERX5等新品。上海插混的市场优势仍是较明显，广州和深圳市场的新能源表现目前一般。</p>
 
 		<div class="sub-title">3、国产普混也进入新阶段</div>
-		<img src="image/9.png" alt="国产普混也进入新阶段">
+		<a href="image/9.png"><img src="image/9.png" alt="国产普混也进入新阶段"></a>
 		<label>国产普混也进入新阶段</label>
 		<p>15年11月的卡罗拉和雷凌混动推出。这类普通混动产品不属于我们的新能源系列，但其在美国市场销量巨大，且技术复杂程度远高于纯电动，成本优势也明显。考虑到美国的普混市场远大于插混市场，中国的市场未来变化也是值得观察的。但2月的普锐斯退出也是很可惜的，毕竟是世界风向标。</p>
 		<p>16年丰田混动的总体销量在月均6300台水平，3-6月出现逐步稳定的趋势。16年的卡罗拉混动表现较强，市场认可度很高，部分城市的购买仍需排队。17年的1月的普混仍是南北丰田为主，但雅阁等混动车型已经表现出稳定的需求，雅阁与凯美瑞的销量近似。</p>
@@ -178,23 +185,321 @@ body{
 		<div class="title">三、 新能源车摇号限购状态</div>
 
 		<div class="sub-title">1、限购摇号状态</div>
-		<img src="image/a.png" alt="限购摇号状态">
+		<a href="image/a.png"><img src="image/a.png" alt="限购摇号状态"></a>
 		<label>限购摇号状态</label>
 		<p>北京新能源车的申请数量是12月数据，常规车指标为正常人数指标。北京的摇号购买新能源车的抢购没有推广示范意义，这是极度挤压需求下的被迫购买，北京百姓解决有没有车的问题只能靠买电动车。其他城市政策没有这样的强力，因此北京的摇号新能源抢购情况近期难以在其他城市出现。</p>
 		<p>北京的12月有2648个指标，应该也是6月退出的指标。除北京外的其他城市的限购政策下买新能源车的仍是不多，但上海的号牌相对宽松放开。其他城市的个人购买的力度较小，加之取消限购的消息，指标变化不大。</p>
 
 		<div class="sub-title">2、牌照价格近期高位稳定</div>
-		<img src="image/b.png" alt="牌照价格近期高位稳定">
+		<a href="image/b.png"><img src="image/b.png" alt="牌照价格近期高位稳定"></a>
 		<label>牌照价格近期高位稳定</label>
 		<p>前期随着深圳房价暴涨，因此前几个月的个人拍牌价格偏高，但随着经济下行压力和单位用户购买力不足，个人拍牌价格也出现下调趋势。16年11月的广州价格下降到1.9万，相对去年7-8月的高价下跌较多。深圳也是暴跌一些，天津和杭州16年初较高点大幅下降，目前进入暴增期。随着今年的房价暴涨，需求心态不稳，7-8月汽车拍牌价格增长速度很快。目前天津和杭州的牌照拍牌价格创出新高，深圳处于次新高状态，有利于新能源车的销售。尤其是深圳16年的牌照价格暴增到5.1万，今年1月降到3.8万，拍牌的价格波动较大。近几个月的各城市拍牌价分化，上海的8.7万仍是还有些其他费用的，因此上海新能源车市场更火爆。</p>
 
 		<div class="sub-title">3、各地摇号买新能源车的数量不均衡上升</div>
-		<img src="image/c.png" alt="各地摇号买新能源车的数量不均衡上升">
+		<a href="image/c.png"><img src="image/c.png" alt="各地摇号买新能源车的数量不均衡上升"></a>
 		<label>各地摇号买新能源车的数量不均衡上升</label>
 		<p>北京的电动车指标申请数量增长很快，而其他城市的增长较慢。16年2月北京的申请仍较多，4月的1万较少，6月达到1.6万，8月用光，这也是北京不限行政策对新能源车的拉动。天津等部分城市也有增长的的潜力，毕竟新能源车的牌照不要钱，而且更多的低价新能源车还是很实惠的。</p>
 		<p>北京市交通委员会：截至2月8日24:00，累计收到个人示范应用新能源小客车配置指标申请和确认延期的共42384个，北京市新能源小客车个人指标额度仅剩8616个，总体状态较好。</p>
 		<p>总体看，随着全国新能源车市场的补贴和优惠照顾力度超强，政策效果逐步体现。北京的限购政策深入，差异化的新能源车不限行的优惠政策对车市的新能源车购买的促进较大。</p>
 	</div>
+	<div id="image-box"></div>
 </div>
+<!-- Root element of PhotoSwipe. Must have class pswp. -->
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+ 
+ <!-- Background of PhotoSwipe. 
+ It's a separate element as animating opacity is faster than rgba(). -->
+ <div class="pswp__bg"></div>
+ 
+ <!-- Slides wrapper with overflow:hidden. -->
+ <div class="pswp__scroll-wrap">
+ 
+ <!-- Container that holds slides. 
+ PhotoSwipe keeps only 3 of them in the DOM to save memory.
+ Don't modify these 3 pswp__item elements, data is added later on. -->
+ <div class="pswp__container">
+ <div class="pswp__item"></div>
+ <div class="pswp__item"></div>
+ <div class="pswp__item"></div>
+ </div>
+ 
+ <!-- Default (PhotoSwipeUI_Default) interface on top of sliding area. Can be changed. -->
+ <div class="pswp__ui pswp__ui--hidden">
+ 
+ <div class="pswp__top-bar">
+ 
+ <!-- Controls are self-explanatory. Order can be changed. -->
+ 
+ <div class="pswp__counter"></div>
+ 
+ <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+ 
+ <button class="pswp__button pswp__button--share" title="Share"></button>
+ 
+ <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+ 
+ <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+ 
+ <!-- element will get class pswp__preloader--active when preloader is running -->
+ <div class="pswp__preloader">
+  <div class="pswp__preloader__icn">
+  <div class="pswp__preloader__cut">
+  <div class="pswp__preloader__donut"></div>
+  </div>
+  </div>
+ </div>
+ </div>
+ 
+ <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+ <div class="pswp__share-tooltip"></div> 
+ </div>
+ 
+ <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+ </button>
+ 
+ <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+ </button>
+ 
+ <div class="pswp__caption">
+ <div class="pswp__caption__center"></div>
+ </div>
+ 
+ </div>
+ 
+ </div>
+ 
+</div>
+<script type="text/javascript">
+
+// document.addEventListener('DOMContentLoaded', function(){
+//     var myPhotoSwipe = Code.PhotoSwipe.attach(
+//     window.document.querySelectorAll('#Gallery a'),
+//     {
+//         enableMouseWheel: false,
+//         enableKeyboard: false,
+//         allowRotationOnUserZoom:true
+//     }
+//     );  
+// }, false);
+
+// document.addEventListener("DOMContentLoaded",function(){
+//   Code.photoSwipe('a','#Gallery');
+ 
+// //此处就涉及到上述页面结构中的 id="Gallery"和<a href="..."></a>，其中id="Gallery"是容器　　
+ 
+// //<a href="图片路径"></a>,此处href中一定是当前所指向的图片的路径
+// },false);
+
+ var initPhotoSwipeFromDOM = function(gallerySelector) {
+ 
+ // 解析来自DOM元素幻灯片数据（URL，标题，大小...）
+ // (children of gallerySelector)
+ var parseThumbnailElements = function(el) {
+ var thumbElements = el.childNodes,
+ numNodes = thumbElements.length,
+ items = [],
+ figureEl,
+ linkEl,
+ size,
+ item;
+ 
+ for(var i = 0; i < numNodes; i++) {
+ 
+ figureEl = thumbElements[i]; // <figure> element
+ 
+ // 仅包括元素节点
+ if(figureEl.nodeType !== 1) {
+ continue;
+ } 25 linkEl = figureEl.children[0]; // <a> element
+  
+ size = linkEl.getAttribute('data-size').split('x');
+ 
+ // 创建幻灯片对象
+ item = {
+ src: linkEl.getAttribute('href'),
+ w: parseInt(size[0], 10),
+ h: parseInt(size[1], 10)
+ };
+ 
+ 
+ if(figureEl.children.length > 1) {
+ // <figcaption> content
+ item.title = figureEl.children[1].innerHTML; 
+ }
+ 
+ if(linkEl.children.length > 0) {
+ // <img> 缩略图节点, 检索缩略图网址
+ item.msrc = linkEl.children[0].getAttribute('src');
+ }
+ 
+ item.el = figureEl; // 保存链接元素 for getThumbBoundsFn
+ items.push(item);
+ }
+ 
+ return items;
+ };
+ 
+ // 查找最近的父节点
+ var closest = function closest(el, fn) {
+ return el && ( fn(el) ? el : closest(el.parentNode, fn) );
+ };
+ 
+ // 当用户点击缩略图触发
+ var onThumbnailsClick = function(e) {
+ e = e || window.event;
+ e.preventDefault ? e.preventDefault() : e.returnValue = false;
+ 
+ var eTarget = e.target || e.srcElement;
+ 
+ // find root element of slide
+ var clickedListItem = closest(eTarget, function(el) {
+ return (el.tagName && el.tagName.toUpperCase() === 'FIGURE');
+ });
+ 
+ if(!clickedListItem) {
+ return;
+ }
+ 
+ // find index of clicked item by looping through all child nodes
+ // alternatively, you may define index via data- attribute
+ var clickedGallery = clickedListItem.parentNode,
+ childNodes = clickedListItem.parentNode.childNodes,
+ numChildNodes = childNodes.length,
+ nodeIndex = 0,
+ index;
+ 
+ for (var i = 0; i < numChildNodes; i++) {
+ if(childNodes[i].nodeType !== 1) { 
+ continue; 
+ }
+ 
+ if(childNodes[i] === clickedListItem) {
+ index = nodeIndex;
+ break;
+ }
+ nodeIndex++;
+ }
+ 
+ 
+ if(index >= 0) {
+ // open PhotoSwipe if valid index found
+ openPhotoSwipe( index, clickedGallery );
+ }
+ return false;
+ };
+ 
+ // parse picture index and gallery index from URL (#&pid=1&gid=2)
+ var photoswipeParseHash = function() {
+ var hash = window.location.hash.substring(1),
+ params = {};
+ 
+ if(hash.length < 5) {
+ return params;
+ }
+ 
+ var vars = hash.split('&');
+ for (var i = 0; i < vars.length; i++) {
+ if(!vars[i]) {
+ continue;
+ }
+ var pair = vars[i].split('='); 
+ if(pair.length < 2) {
+ continue;
+ } 
+ params[pair[0]] = pair[1];
+ }
+ 
+ if(params.gid) {
+ params.gid = parseInt(params.gid, 10);
+ }
+ 
+ return params;
+ };
+ 
+ var openPhotoSwipe = function(index, galleryElement, disableAnimation, fromURL) {
+ var pswpElement = document.querySelectorAll('.pswp')[0],
+ gallery,
+ options,
+ items;
+ 
+ items = parseThumbnailElements(galleryElement);
+ 
+ // 这里可以定义参数
+ options = {
+ barsSize: { 
+ top: 100,
+ bottom: 100
+ }, 
+ fullscreenEl : false, // 是否支持全屏按钮
+ shareButtons: [
+ {id:'wechat', label:'分享微信', url:'#'},
+ {id:'weibo', label:'新浪微博', url:'#'},
+ {id:'download', label:'保存图片', url:'{{raw_image_url}}', download:true}
+ ], // 分享按钮
+ 
+ // define gallery index (for URL)
+ galleryUID: galleryElement.getAttribute('data-pswp-uid'),
+ 
+ getThumbBoundsFn: function(index) {
+ // See Options -> getThumbBoundsFn section of documentation for more info
+ var thumbnail = items[index].el.getElementsByTagName('img')[0], // find thumbnail
+  pageYScroll = window.pageYOffset || document.documentElement.scrollTop,
+  rect = thumbnail.getBoundingClientRect();
+ 
+ return {x:rect.left, y:rect.top + pageYScroll, w:rect.width};
+ }
+ 
+ };
+ 
+ // PhotoSwipe opened from URL
+ if(fromURL) {
+ if(options.galleryPIDs) {
+ // parse real index when custom PIDs are used 
+ for(var j = 0; j < items.length; j++) {
+  if(items[j].pid == index) {
+  options.index = j;
+  break;
+  }
+ }
+ } else {
+ // in URL indexes start from 1
+ options.index = parseInt(index, 10) - 1;
+ }
+ } else {
+ options.index = parseInt(index, 10);
+ }
+ 
+ // exit if index not found
+ if( isNaN(options.index) ) {
+ return;
+ }
+ 
+ if(disableAnimation) {
+ options.showAnimationDuration = 0;
+ }
+ 
+ // Pass data to PhotoSwipe and initialize it
+ gallery = new PhotoSwipe( pswpElement, PhotoSwipeUI_Default, items, options);
+ gallery.init();
+ };
+ 
+ // loop through all gallery elements and bind events
+ var galleryElements = document.querySelectorAll( gallerySelector );
+ 
+ for(var i = 0, l = galleryElements.length; i < l; i++) {
+ galleryElements[i].setAttribute('data-pswp-uid', i+1);
+ galleryElements[i].onclick = onThumbnailsClick;
+ }
+ 
+ // Parse URL and open gallery if it contains #&pid=3&gid=1
+ var hashData = photoswipeParseHash();
+ if(hashData.pid && hashData.gid) {
+ openPhotoSwipe( hashData.pid , galleryElements[ hashData.gid - 1 ], true, true );
+ }
+ };
+ 
+ // execute above function
+ initPhotoSwipeFromDOM('.my-gallery');
+</script>
 </body>
 </html>
